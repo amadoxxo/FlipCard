@@ -16,7 +16,7 @@ body {
     position: relative;
     width: 150px;
     height: 150px;
-    margin-right: 25px;
+    margin: 5px;
 }
 
 .card div {
@@ -40,6 +40,7 @@ body {
 
 .card .back {
     background: rgb(3, 45, 129);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     text-align: center;
     color: white;
     border-radius: 15px;
@@ -65,12 +66,22 @@ body {
     text-align: center;
 }
 
-.grid-min-max {
+.grid {
     display: flex;
 }
 
 @media screen and (max-width: 768px) {
-    .grid-min-max {
+    .grid {
         display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 15px;
     }
 }
