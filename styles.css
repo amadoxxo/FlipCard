@@ -38,6 +38,10 @@ body {
 }
 
 .card .back {
+    background: rgb(3, 45, 129);
+    text-align: center;
+    color: white;
+    border-radius: 15px;
     transform: perspective(500px) rotateY(180deg);
 }
 
