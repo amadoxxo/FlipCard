@@ -15,8 +15,8 @@ body {
 
 .card {
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     margin: 5px;
 }
 
@@ -74,14 +74,17 @@ body {
 .title {
     font-size: medium;
     font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .parrafo {
     font-size: small;
+    margin-bottom: 8px;
 }
 
 .lista {
     font-size: smaller;
+    text-align: start;
 }
 
 @media screen and (max-width: 768px) {
